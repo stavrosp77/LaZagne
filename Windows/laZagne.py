@@ -103,7 +103,7 @@ def launch_module(module, need_high_privileges=False, need_system_privileges=Fal
 				modulesToLaunch.append(i)
 	except:
 		# if no args
-		pass
+		module='all' #pass
 
 	# Launch all modules
 	if not modulesToLaunch:
